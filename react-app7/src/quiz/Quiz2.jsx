@@ -1,5 +1,6 @@
-import './App.css';
 import { useState } from 'react';
+
+// 글자 수를 세는 앱 만들기
 
 function App() {
 
@@ -10,12 +11,6 @@ function App() {
     let text = event.target.value;
     setcharCount(text.length); // 입력된 텍스트 업데이트
   };
-
-  // 위에랑 같은 함수임
-  // function handleChange(event){
-  //   let text = event.target.value;
-  //   setcharCount(text.length); 
-  // };
 
   return (
     <div>
